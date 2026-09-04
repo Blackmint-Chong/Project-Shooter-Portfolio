@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1747a591a8774f4caa9addc786d8311c, type: 3}
+  m_Name: DefaultWeapon
+  m_EditorClassIdentifier: ProjectShooter.Runtime::WeaponDefinition
+  displayName: Default Weapon
+  bulletStats:
+    speed: 15
+    impulse: 25
+  fireInterval: 0.4
+  sprite: {fileID: -1250021020546060479, guid: de11ab22044b16243b3b6e78ae3fc615, type: 3}
+  visualScale: {x: 0.04, y: 0.04}
+  muzzleOffset: {x: 0.3, y: 0}

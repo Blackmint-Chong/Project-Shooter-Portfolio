@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f58d2cfe0b4b468aac67e53fcd1602, type: 3}
+  m_Name: FactoryMap
+  m_EditorClassIdentifier: ProjectShooter.Runtime::BattleMapDefinition
+  mapId: factory-map
+  displayName: Factory
+  description: Factory map.
+  scenePath: Assets/Scenes/Battle/FactoryMap.unity
+  thumbnail: {fileID: -6134334809566797953, guid: 96a665c6adefb444ea961d2dc2f75b8e, type: 3}
