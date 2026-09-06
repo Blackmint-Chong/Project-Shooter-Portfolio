@@ -7,6 +7,16 @@ Unity로 제작한 2D 플랫폼 슈팅 게임입니다. 플레이어와 AI가 �
 
 <img src="docs/media/gameplay.gif" alt="Project Shooter 게임 플레이" width="617">
 
+## 빠른 실행
+
+1. Unity Hub에서 이 저장소의 루트 폴더를 추가하고 Unity `6000.3.11f1`로 엽니다.
+2. 첫 가져오기가 끝나면 빈 씬 대신 `MainMenu`가 자동으로 열립니다.
+3. 상단 **Play** → **START**를 눌러 설정 화면에서 경기를 시작합니다.
+
+시작 씬을 직접 열려면 **Portfolio > Open Startup Scene** 메뉴를 사용하거나,
+Project 창에서 `Assets/Scenes/MainMenu.unity`를 더블클릭합니다.
+이미 열어 둔 씬이나 저장하지 않은 변경이 있으면 자동 전환하지 않습니다.
+
 ## 프로젝트 정보
 
 | 항목      | 내용                                 |
@@ -59,9 +69,8 @@ Unity로 제작한 2D 플랫폼 슈팅 게임입니다. 플레이어와 AI가 �
 - Input System `1.19.0`
 - Universal Render Pipeline `17.3.0`
 
-프로젝트를 Unity에서 연 뒤 `Assets/Scenes/MainMenu.unity`를 열어 Play하면 전체
-흐름을 확인할 수 있습니다. 실행 파일을 만들 때도 Main Menu가 첫 씬으로 설정되어
-있습니다.
+`Assets/Scenes/MainMenu.unity`에서 Play하면 전체 흐름을 확인할 수 있습니다.
+실행 파일을 만들 때도 Main Menu가 첫 씬으로 설정되어 있습니다.
 
 ## 빌드
 
